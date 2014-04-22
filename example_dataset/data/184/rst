@@ -1,0 +1,537 @@
+Supplemental results for CODEML (seqf: /SWAMP/example_dataset/data/184/184.phy  treef: /SWAMP/example_dataset/example.tree)
+
+
+TREE #  1
+
+Ancestral reconstruction by CODONML.
+
+((homo: 0.000004, pongo: 0.012673): 0.017457, (papio: 0.006200, colobus: 0.006365): 0.035330);
+
+((2, 4), (3, 1));
+
+   5..6     6..2     6..4     5..7     7..3     7..1
+
+tree with node labels for Rod Page's TreeView
+((2_homo, 4_pongo) 6 , (3_papio, 1_colobus) 7 ) 5 ;
+
+Nodes 5 to 7 are ancestral
+
+(1) Marginal reconstruction of ancestral sequences
+(eqn. 4 in Yang et al. 1995 Genetics 141:1641-1650).
+
+Prob of best state at each node, listed by site
+
+   site   Freq   Data:
+
+   1     15   ATG (M) ATG (M) ATG (M) ATG (M) :  ATG M 1.000 (M 1.000) ATG M 1.000 (M 1.000) ATG M 1.000 (M 1.000)
+   2      2   GCA (A) GCA (A) GCA (A) GCA (A) :  GCA A 1.000 (A 1.000) GCA A 1.000 (A 1.000) GCA A 1.000 (A 1.000)
+   3      6   GAC (D) GAC (D) GAC (D) GAC (D) :  GAC D 0.999 (D 1.000) GAC D 1.000 (D 1.000) GAC D 1.000 (D 1.000)
+   4      3   CAT (H) CAT (H) CAT (H) CAT (H) :  CAT H 0.999 (H 1.000) CAT H 1.000 (H 1.000) CAT H 1.000 (H 1.000)
+   5     15   ATG (M) ATG (M) ATG (M) ATG (M) :  ATG M 1.000 (M 1.000) ATG M 1.000 (M 1.000) ATG M 1.000 (M 1.000)
+   6     15   ATG (M) ATG (M) ATG (M) ATG (M) :  ATG M 1.000 (M 1.000) ATG M 1.000 (M 1.000) ATG M 1.000 (M 1.000)
+   7      8   GCC (A) GCC (A) GCC (A) GCC (A) :  GCC A 0.999 (A 1.000) GCC A 1.000 (A 1.000) GCC A 1.000 (A 1.000)
+   8     15   ATG (M) ATG (M) ATG (M) ATG (M) :  ATG M 1.000 (M 1.000) ATG M 1.000 (M 1.000) ATG M 1.000 (M 1.000)
+   9      6   AAC (N) AAC (N) AAC (N) AAC (N) :  AAC N 0.999 (N 1.000) AAC N 1.000 (N 1.000) AAC N 1.000 (N 1.000)
+  10     10   CAC (H) CAC (H) CAC (H) CAC (H) :  CAC H 0.999 (H 1.000) CAC H 1.000 (H 1.000) CAC H 1.000 (H 1.000)
+  11      7   GGG (G) GGG (G) GGG (G) GGG (G) :  GGG G 1.000 (G 1.000) GGG G 1.000 (G 1.000) GGG G 1.000 (G 1.000)
+  12      3   CGC (R) CGC (R) CGC (R) CGC (R) :  CGC R 1.000 (R 1.000) CGC R 1.000 (R 1.000) CGC R 1.000 (R 1.000)
+  13      6   TTC (F) TTC (F) TTC (F) TTC (F) :  TTC F 1.000 (F 1.000) TTC F 1.000 (F 1.000) TTC F 1.000 (F 1.000)
+  14      8   CCC (P) CCC (P) CCC (P) CCC (P) :  CCC P 0.999 (P 1.000) CCC P 1.000 (P 1.000) CCC P 1.000 (P 1.000)
+  15      6   GAC (D) GAC (D) GAC (D) GAC (D) :  GAC D 0.999 (D 1.000) GAC D 1.000 (D 1.000) GAC D 1.000 (D 1.000)
+  16      7   GGC (G) GGC (G) GGC (G) GGC (G) :  GGC G 1.000 (G 1.000) GGC G 1.000 (G 1.000) GGC G 1.000 (G 1.000)
+  17      1   ACC (T) ACC (T) ACC (T) ACC (T) :  ACC T 1.000 (T 1.000) ACC T 1.000 (T 1.000) ACC T 1.000 (T 1.000)
+  18      3   AAT (N) AAT (N) AAT (N) AAT (N) :  AAT N 0.999 (N 1.000) AAT N 1.000 (N 1.000) AAT N 1.000 (N 1.000)
+  19      7   GGG (G) GGG (G) GGG (G) GGG (G) :  GGG G 1.000 (G 1.000) GGG G 1.000 (G 1.000) GGG G 1.000 (G 1.000)
+  20      7   CTG (L) CTG (L) CTG (L) CTG (L) :  CTG L 0.999 (L 1.000) CTG L 1.000 (L 1.000) CTG L 1.000 (L 1.000)
+  21     10   CAC (H) CAC (H) CAC (H) CAC (H) :  CAC H 0.999 (H 1.000) CAC H 1.000 (H 1.000) CAC H 1.000 (H 1.000)
+  22      1   CAC (H) CAT (H) CAC (H) CAT (H) :  CAT H 0.660 (H 1.000) CAT H 1.000 (H 1.000) CAC H 0.998 (H 1.000)
+  23     10   CAC (H) CAC (H) CAC (H) CAC (H) :  CAC H 0.999 (H 1.000) CAC H 1.000 (H 1.000) CAC H 1.000 (H 1.000)
+  24      1   CCT (P) CCT (P) CCT (P) CCT (P) :  CCT P 0.999 (P 1.000) CCT P 1.000 (P 1.000) CCT P 1.000 (P 1.000)
+  25      8   GCC (A) GCC (A) GCC (A) GCC (A) :  GCC A 0.999 (A 1.000) GCC A 1.000 (A 1.000) GCC A 1.000 (A 1.000)
+  26     10   CAC (H) CAC (H) CAC (H) CAC (H) :  CAC H 0.999 (H 1.000) CAC H 1.000 (H 1.000) CAC H 1.000 (H 1.000)
+  27      3   CGC (R) CGC (R) CGC (R) CGC (R) :  CGC R 1.000 (R 1.000) CGC R 1.000 (R 1.000) CGC R 1.000 (R 1.000)
+  28     15   ATG (M) ATG (M) ATG (M) ATG (M) :  ATG M 1.000 (M 1.000) ATG M 1.000 (M 1.000) ATG M 1.000 (M 1.000)
+  29      7   GGC (G) GGC (G) GGC (G) GGC (G) :  GGC G 1.000 (G 1.000) GGC G 1.000 (G 1.000) GGC G 1.000 (G 1.000)
+  30     15   ATG (M) ATG (M) ATG (M) ATG (M) :  ATG M 1.000 (M 1.000) ATG M 1.000 (M 1.000) ATG M 1.000 (M 1.000)
+  31      7   GGG (G) GGG (G) GGG (G) GGG (G) :  GGG G 1.000 (G 1.000) GGG G 1.000 (G 1.000) GGG G 1.000 (G 1.000)
+  32     12   CAG (Q) CAG (Q) CAG (Q) CAG (Q) :  CAG Q 0.999 (Q 1.000) CAG Q 1.000 (Q 1.000) CAG Q 1.000 (Q 1.000)
+  33      6   TTC (F) TTC (F) TTC (F) TTC (F) :  TTC F 1.000 (F 1.000) TTC F 1.000 (F 1.000) TTC F 1.000 (F 1.000)
+  34      5   CCG (P) CCG (P) CCG (P) CCG (P) :  CCG P 1.000 (P 1.000) CCG P 1.000 (P 1.000) CCG P 1.000 (P 1.000)
+  35      6   AGC (S) AGC (S) AGC (S) AGC (S) :  AGC S 1.000 (S 1.000) AGC S 1.000 (S 1.000) AGC S 1.000 (S 1.000)
+  36      8   CCC (P) CCC (P) CCC (P) CCC (P) :  CCC P 0.999 (P 1.000) CCC P 1.000 (P 1.000) CCC P 1.000 (P 1.000)
+  37      3   CAT (H) CAT (H) CAT (H) CAT (H) :  CAT H 0.999 (H 1.000) CAT H 1.000 (H 1.000) CAT H 1.000 (H 1.000)
+  38     10   CAC (H) CAC (H) CAC (H) CAC (H) :  CAC H 0.999 (H 1.000) CAC H 1.000 (H 1.000) CAC H 1.000 (H 1.000)
+  39     10   CAC (H) CAC (H) CAC (H) CAC (H) :  CAC H 0.999 (H 1.000) CAC H 1.000 (H 1.000) CAC H 1.000 (H 1.000)
+  40     12   CAG (Q) CAG (Q) CAG (Q) CAG (Q) :  CAG Q 0.999 (Q 1.000) CAG Q 1.000 (Q 1.000) CAG Q 1.000 (Q 1.000)
+  41     12   CAG (Q) CAG (Q) CAG (Q) CAG (Q) :  CAG Q 0.999 (Q 1.000) CAG Q 1.000 (Q 1.000) CAG Q 1.000 (Q 1.000)
+  42     12   CAG (Q) CAG (Q) CAG (Q) CAG (Q) :  CAG Q 0.999 (Q 1.000) CAG Q 1.000 (Q 1.000) CAG Q 1.000 (Q 1.000)
+  43     12   CAG (Q) CAG (Q) CAG (Q) CAG (Q) :  CAG Q 0.999 (Q 1.000) CAG Q 1.000 (Q 1.000) CAG Q 1.000 (Q 1.000)
+  44      8   CCC (P) CCC (P) CCC (P) CCC (P) :  CCC P 0.999 (P 1.000) CCC P 1.000 (P 1.000) CCC P 1.000 (P 1.000)
+  45     12   CAG (Q) CAG (Q) CAG (Q) CAG (Q) :  CAG Q 0.999 (Q 1.000) CAG Q 1.000 (Q 1.000) CAG Q 1.000 (Q 1.000)
+  46     10   CAC (H) CAC (H) CAC (H) CAC (H) :  CAC H 0.999 (H 1.000) CAC H 1.000 (H 1.000) CAC H 1.000 (H 1.000)
+  47      1   GCT (A) GCC (A) GCT (A) GCC (A) :  GCC A 0.676 (A 1.000) GCC A 1.000 (A 1.000) GCT A 1.000 (A 1.000)
+  48      6   TTC (F) TTC (F) TTC (F) TTC (F) :  TTC F 1.000 (F 1.000) TTC F 1.000 (F 1.000) TTC F 1.000 (F 1.000)
+  49      6   AAC (N) AAC (N) AAC (N) AAC (N) :  AAC N 0.999 (N 1.000) AAC N 1.000 (N 1.000) AAC N 1.000 (N 1.000)
+  50      8   GCC (A) GCC (A) GCC (A) GCC (A) :  GCC A 0.999 (A 1.000) GCC A 1.000 (A 1.000) GCC A 1.000 (A 1.000)
+  51      1   CTG (L) CTA (L) CTG (L) CTA (L) :  CTA L 0.662 (L 1.000) CTA L 1.000 (L 1.000) CTG L 0.999 (L 1.000)
+  52     15   ATG (M) ATG (M) ATG (M) ATG (M) :  ATG M 1.000 (M 1.000) ATG M 1.000 (M 1.000) ATG M 1.000 (M 1.000)
+  53      7   GGC (G) GGC (G) GGC (G) GGC (G) :  GGC G 1.000 (G 1.000) GGC G 1.000 (G 1.000) GGC G 1.000 (G 1.000)
+  54      4   GAG (E) GAG (E) GAG (E) GAG (E) :  GAG E 0.999 (E 1.000) GAG E 1.000 (E 1.000) GAG E 1.000 (E 1.000)
+  55     10   CAC (H) CAC (H) CAC (H) CAC (H) :  CAC H 0.999 (H 1.000) CAC H 1.000 (H 1.000) CAC H 1.000 (H 1.000)
+  56      3   ATA (I) ATA (I) ATA (I) ATA (I) :  ATA I 1.000 (I 1.000) ATA I 1.000 (I 1.000) ATA I 1.000 (I 1.000)
+  57     10   CAC (H) CAC (H) CAC (H) CAC (H) :  CAC H 0.999 (H 1.000) CAC H 1.000 (H 1.000) CAC H 1.000 (H 1.000)
+  58      1   TAC (Y) TAC (Y) TAC (Y) TAC (Y) :  TAC Y 1.000 (Y 1.000) TAC Y 1.000 (Y 1.000) TAC Y 1.000 (Y 1.000)
+  59      7   GGC (G) GGC (G) GGC (G) GGC (G) :  GGC G 1.000 (G 1.000) GGC G 1.000 (G 1.000) GGC G 1.000 (G 1.000)
+  60      3   GCG (A) GCG (A) GCG (A) GCG (A) :  GCG A 1.000 (A 1.000) GCG A 1.000 (A 1.000) GCG A 1.000 (A 1.000)
+  61      7   GGC (G) GGC (G) GGC (G) GGC (G) :  GGC G 1.000 (G 1.000) GGC G 1.000 (G 1.000) GGC G 1.000 (G 1.000)
+  62      6   AAC (N) AAC (N) AAC (N) AAC (N) :  AAC N 0.999 (N 1.000) AAC N 1.000 (N 1.000) AAC N 1.000 (N 1.000)
+  63     15   ATG (M) ATG (M) ATG (M) ATG (M) :  ATG M 1.000 (M 1.000) ATG M 1.000 (M 1.000) ATG M 1.000 (M 1.000)
+  64      3   AAT (N) AAT (N) AAT (N) AAT (N) :  AAT N 0.999 (N 1.000) AAT N 1.000 (N 1.000) AAT N 1.000 (N 1.000)
+  65      8   GCC (A) GCC (A) GCC (A) GCC (A) :  GCC A 0.999 (A 1.000) GCC A 1.000 (A 1.000) GCC A 1.000 (A 1.000)
+  66      2   ACG (T) ACG (T) ACG (T) ACG (T) :  ACG T 1.000 (T 1.000) ACG T 1.000 (T 1.000) ACG T 1.000 (T 1.000)
+  67      6   AGC (S) AGC (S) AGC (S) AGC (S) :  AGC S 1.000 (S 1.000) AGC S 1.000 (S 1.000) AGC S 1.000 (S 1.000)
+  68      7   GGC (G) GGC (G) GGC (G) GGC (G) :  GGC G 1.000 (G 1.000) GGC G 1.000 (G 1.000) GGC G 1.000 (G 1.000)
+  69      3   ATC (I) ATC (I) ATC (I) ATC (I) :  ATC I 0.999 (I 1.000) ATC I 1.000 (I 1.000) ATC I 1.000 (I 1.000)
+  70      2   AGG (R) AGG (R) AGG (R) AGG (R) :  AGG R 1.000 (R 1.000) AGG R 1.000 (R 1.000) AGG R 1.000 (R 1.000)
+  71      3   CAT (H) CAT (H) CAT (H) CAT (H) :  CAT H 0.999 (H 1.000) CAT H 1.000 (H 1.000) CAT H 1.000 (H 1.000)
+  72      3   GCG (A) GCG (A) GCG (A) GCG (A) :  GCG A 1.000 (A 1.000) GCG A 1.000 (A 1.000) GCG A 1.000 (A 1.000)
+  73     15   ATG (M) ATG (M) ATG (M) ATG (M) :  ATG M 1.000 (M 1.000) ATG M 1.000 (M 1.000) ATG M 1.000 (M 1.000)
+  74      7   GGG (G) GGG (G) GGG (G) GGG (G) :  GGG G 1.000 (G 1.000) GGG G 1.000 (G 1.000) GGG G 1.000 (G 1.000)
+  75      5   CCG (P) CCG (P) CCG (P) CCG (P) :  CCG P 1.000 (P 1.000) CCG P 1.000 (P 1.000) CCG P 1.000 (P 1.000)
+  76      7   GGG (G) GGG (G) GGG (G) GGG (G) :  GGG G 1.000 (G 1.000) GGG G 1.000 (G 1.000) GGG G 1.000 (G 1.000)
+  77      2   ACT (T) ACT (T) ACT (T) ACT (T) :  ACT T 1.000 (T 1.000) ACT T 1.000 (T 1.000) ACT T 1.000 (T 1.000)
+  78      5   GTG (V) GTG (V) GTG (V) GTG (V) :  GTG V 0.999 (V 1.000) GTG V 1.000 (V 1.000) GTG V 1.000 (V 1.000)
+  79      6   AAC (N) AAC (N) AAC (N) AAC (N) :  AAC N 0.999 (N 1.000) AAC N 1.000 (N 1.000) AAC N 1.000 (N 1.000)
+  80      2   GGA (G) GGA (G) GGA (G) GGA (G) :  GGA G 1.000 (G 1.000) GGA G 1.000 (G 1.000) GGA G 1.000 (G 1.000)
+  81      7   GGG (G) GGG (G) GGG (G) GGG (G) :  GGG G 1.000 (G 1.000) GGG G 1.000 (G 1.000) GGG G 1.000 (G 1.000)
+  82     10   CAC (H) CAC (H) CAC (H) CAC (H) :  CAC H 0.999 (H 1.000) CAC H 1.000 (H 1.000) CAC H 1.000 (H 1.000)
+  83      8   CCC (P) CCC (P) CCC (P) CCC (P) :  CCC P 0.999 (P 1.000) CCC P 1.000 (P 1.000) CCC P 1.000 (P 1.000)
+  84      1   CCG (P) CCG (P) CCT (P) CCG (P) :  CCG P 0.993 (P 1.000) CCG P 1.000 (P 1.000) CCG P 0.979 (P 1.000)
+  85      6   AGC (S) AGC (S) AGC (S) AGC (S) :  AGC S 1.000 (S 1.000) AGC S 1.000 (S 1.000) AGC S 1.000 (S 1.000)
+  86      1   GCA (A) GCG (A) GCA (A) GCG (A) :  GCG A 0.676 (A 1.000) GCG A 1.000 (A 1.000) GCA A 1.000 (A 1.000)
+  87      7   CTG (L) CTG (L) CTG (L) CTG (L) :  CTG L 0.999 (L 1.000) CTG L 1.000 (L 1.000) CTG L 1.000 (L 1.000)
+  88      8   GCC (A) GCC (A) GCC (A) GCC (A) :  GCC A 0.999 (A 1.000) GCC A 1.000 (A 1.000) GCC A 1.000 (A 1.000)
+  89      8   CCC (P) CCC (P) CCC (P) CCC (P) :  CCC P 0.999 (P 1.000) CCC P 1.000 (P 1.000) CCC P 1.000 (P 1.000)
+  90      3   GCG (A) GCG (A) GCG (A) GCG (A) :  GCG A 1.000 (A 1.000) GCG A 1.000 (A 1.000) GCG A 1.000 (A 1.000)
+  91      8   GCC (A) GCC (A) GCC (A) GCC (A) :  GCC A 0.999 (A 1.000) GCC A 1.000 (A 1.000) GCC A 1.000 (A 1.000)
+  92      2   AGG (R) AGG (R) AGG (R) AGG (R) :  AGG R 1.000 (R 1.000) AGG R 1.000 (R 1.000) AGG R 1.000 (R 1.000)
+  93      3   TTT (F) TTT (F) TTT (F) TTT (F) :  TTT F 1.000 (F 1.000) TTT F 1.000 (F 1.000) TTT F 1.000 (F 1.000)
+  94      6   AAC (N) AAC (N) AAC (N) AAC (N) :  AAC N 0.999 (N 1.000) AAC N 1.000 (N 1.000) AAC N 1.000 (N 1.000)
+  95      1   AAC (N) AAC (N) AAC (N) AAT (N) :  AAC N 0.999 (N 1.000) AAC N 1.000 (N 1.000) AAC N 1.000 (N 1.000)
+  96      1   TCG (S) TCC (S) TCC (S) TCC (S) :  TCC S 0.998 (S 1.000) TCC S 1.000 (S 1.000) TCC S 0.993 (S 1.000)
+  97     12   CAG (Q) CAG (Q) CAG (Q) CAG (Q) :  CAG Q 0.999 (Q 1.000) CAG Q 1.000 (Q 1.000) CAG Q 1.000 (Q 1.000)
+  98      6   TTC (F) TTC (F) TTC (F) TTC (F) :  TTC F 1.000 (F 1.000) TTC F 1.000 (F 1.000) TTC F 1.000 (F 1.000)
+  99     15   ATG (M) ATG (M) ATG (M) ATG (M) :  ATG M 1.000 (M 1.000) ATG M 1.000 (M 1.000) ATG M 1.000 (M 1.000)
+ 100      1   GGC (G) GGT (G) GGC (G) GGT (G) :  GGT G 0.663 (G 1.000) GGT G 1.000 (G 1.000) GGC G 0.999 (G 1.000)
+ 101      8   CCC (P) CCC (P) CCC (P) CCC (P) :  CCC P 0.999 (P 1.000) CCC P 1.000 (P 1.000) CCC P 1.000 (P 1.000)
+ 102      5   CCG (P) CCG (P) CCG (P) CCG (P) :  CCG P 1.000 (P 1.000) CCG P 1.000 (P 1.000) CCG P 1.000 (P 1.000)
+ 103      5   GTG (V) GTG (V) GTG (V) GTG (V) :  GTG V 0.999 (V 1.000) GTG V 1.000 (V 1.000) GTG V 1.000 (V 1.000)
+ 104      8   GCC (A) GCC (A) GCC (A) GCC (A) :  GCC A 0.999 (A 1.000) GCC A 1.000 (A 1.000) GCC A 1.000 (A 1.000)
+ 105      1   AGT (S) AGC (S) AGT (S) AGC (S) :  AGC S 0.675 (S 1.000) AGC S 1.000 (S 1.000) AGT S 1.000 (S 1.000)
+ 106     12   CAG (Q) CAG (Q) CAG (Q) CAG (Q) :  CAG Q 0.999 (Q 1.000) CAG Q 1.000 (Q 1.000) CAG Q 1.000 (Q 1.000)
+ 107      2   GGA (G) GGA (G) GGA (G) GGA (G) :  GGA G 1.000 (G 1.000) GGA G 1.000 (G 1.000) GGA G 1.000 (G 1.000)
+ 108      7   GGC (G) GGC (G) GGC (G) GGC (G) :  GGC G 1.000 (G 1.000) GGC G 1.000 (G 1.000) GGC G 1.000 (G 1.000)
+ 109      1   TCC (S) TCC (S) TCC (S) TCC (S) :  TCC S 1.000 (S 1.000) TCC S 1.000 (S 1.000) TCC S 1.000 (S 1.000)
+ 110      7   CTG (L) CTG (L) CTG (L) CTG (L) :  CTG L 0.999 (L 1.000) CTG L 1.000 (L 1.000) CTG L 1.000 (L 1.000)
+ 111      5   CCG (P) CCG (P) CCG (P) CCG (P) :  CCG P 1.000 (P 1.000) CCG P 1.000 (P 1.000) CCG P 1.000 (P 1.000)
+ 112      8   GCC (A) GCC (A) GCC (A) GCC (A) :  GCC A 0.999 (A 1.000) GCC A 1.000 (A 1.000) GCC A 1.000 (A 1.000)
+ 113      6   AGC (S) AGC (S) AGC (S) AGC (S) :  AGC S 1.000 (S 1.000) AGC S 1.000 (S 1.000) AGC S 1.000 (S 1.000)
+ 114     15   ATG (M) ATG (M) ATG (M) ATG (M) :  ATG M 1.000 (M 1.000) ATG M 1.000 (M 1.000) ATG M 1.000 (M 1.000)
+ 115     12   CAG (Q) CAG (Q) CAG (Q) CAG (Q) :  CAG Q 0.999 (Q 1.000) CAG Q 1.000 (Q 1.000) CAG Q 1.000 (Q 1.000)
+ 116      7   CTG (L) CTG (L) CTG (L) CTG (L) :  CTG L 0.999 (L 1.000) CTG L 1.000 (L 1.000) CTG L 1.000 (L 1.000)
+ 117     12   CAG (Q) CAG (Q) CAG (Q) CAG (Q) :  CAG Q 0.999 (Q 1.000) CAG Q 1.000 (Q 1.000) CAG Q 1.000 (Q 1.000)
+ 118      1   AAG (K) AAG (K) AAG (K) AAG (K) :  AAG K 1.000 (K 1.000) AAG K 1.000 (K 1.000) AAG K 1.000 (K 1.000)
+ 119      2   GCA (A) GCA (A) GCA (A) GCA (A) :  GCA A 1.000 (A 1.000) GCA A 1.000 (A 1.000) GCA A 1.000 (A 1.000)
+ 120     15   ATG (M) ATG (M) ATG (M) ATG (M) :  ATG M 1.000 (M 1.000) ATG M 1.000 (M 1.000) ATG M 1.000 (M 1.000)
+ 121      7   CTG (L) CTG (L) CTG (L) CTG (L) :  CTG L 0.999 (L 1.000) CTG L 1.000 (L 1.000) CTG L 1.000 (L 1.000)
+ 122      5   CCG (P) CCG (P) CCG (P) CCG (P) :  CCG P 1.000 (P 1.000) CCG P 1.000 (P 1.000) CCG P 1.000 (P 1.000)
+ 123      8   CCC (P) CCC (P) CCC (P) CCC (P) :  CCC P 0.999 (P 1.000) CCC P 1.000 (P 1.000) CCC P 1.000 (P 1.000)
+ 124      3   AAT (N) AAT (N) AAT (N) AAT (N) :  AAT N 0.999 (N 1.000) AAT N 1.000 (N 1.000) AAT N 1.000 (N 1.000)
+ 125      1   GTC (V) GTC (V) GTC (V) GTC (V) :  GTC V 0.999 (V 1.000) GTC V 1.000 (V 1.000) GTC V 1.000 (V 1.000)
+ 126      3   ATA (I) ATA (I) ATA (I) ATA (I) :  ATA I 1.000 (I 1.000) ATA I 1.000 (I 1.000) ATA I 1.000 (I 1.000)
+ 127      6   GAC (D) GAC (D) GAC (D) GAC (D) :  GAC D 0.999 (D 1.000) GAC D 1.000 (D 1.000) GAC D 1.000 (D 1.000)
+ 128      2   ACT (T) ACT (T) ACT (T) ACT (T) :  ACT T 1.000 (T 1.000) ACT T 1.000 (T 1.000) ACT T 1.000 (T 1.000)
+ 129      2   GAT (D) GAT (D) GAT (D) GAT (D) :  GAT D 0.999 (D 1.000) GAT D 1.000 (D 1.000) GAT D 1.000 (D 1.000)
+ 130      6   TTC (F) TTC (F) TTC (F) TTC (F) :  TTC F 1.000 (F 1.000) TTC F 1.000 (F 1.000) TTC F 1.000 (F 1.000)
+ 131      3   ATC (I) ATC (I) ATC (I) ATC (I) :  ATC I 0.999 (I 1.000) ATC I 1.000 (I 1.000) ATC I 1.000 (I 1.000)
+ 132      6   GAC (D) GAC (D) GAC (D) GAC (D) :  GAC D 0.999 (D 1.000) GAC D 1.000 (D 1.000) GAC D 1.000 (D 1.000)
+ 133      4   GAG (E) GAG (E) GAG (E) GAG (E) :  GAG E 0.999 (E 1.000) GAG E 1.000 (E 1.000) GAG E 1.000 (E 1.000)
+ 134      3   GAA (E) GAA (E) GAA (E) GAA (E) :  GAA E 0.999 (E 1.000) GAA E 1.000 (E 1.000) GAA E 1.000 (E 1.000)
+ 135      1   GTT (V) GTT (V) GTT (V) GTT (V) :  GTT V 0.999 (V 1.000) GTT V 1.000 (V 1.000) GTT V 1.000 (V 1.000)
+ 136      1   CTT (L) CTT (L) CTT (L) CTT (L) :  CTT L 0.999 (L 1.000) CTT L 1.000 (L 1.000) CTT L 1.000 (L 1.000)
+ 137     15   ATG (M) ATG (M) ATG (M) ATG (M) :  ATG M 1.000 (M 1.000) ATG M 1.000 (M 1.000) ATG M 1.000 (M 1.000)
+ 138      1   TCC (S) TCC (S) TCC (S) TCA (S) :  TCC S 1.000 (S 1.000) TCC S 1.000 (S 1.000) TCC S 1.000 (S 1.000)
+ 139      2   TTG (L) TTG (L) TTG (L) TTG (L) :  TTG L 0.999 (L 1.000) TTG L 1.000 (L 1.000) TTG L 1.000 (L 1.000)
+ 140      5   GTG (V) GTG (V) GTG (V) GTG (V) :  GTG V 0.999 (V 1.000) GTG V 1.000 (V 1.000) GTG V 1.000 (V 1.000)
+ 141      3   ATA (I) ATA (I) ATA (I) ATA (I) :  ATA I 1.000 (I 1.000) ATA I 1.000 (I 1.000) ATA I 1.000 (I 1.000)
+ 142      3   GAA (E) GAA (E) GAA (E) GAA (E) :  GAA E 0.999 (E 1.000) GAA E 1.000 (E 1.000) GAA E 1.000 (E 1.000)
+ 143     15   ATG (M) ATG (M) ATG (M) ATG (M) :  ATG M 1.000 (M 1.000) ATG M 1.000 (M 1.000) ATG M 1.000 (M 1.000)
+ 144      1   GGT (G) GGT (G) GGT (G) GGT (G) :  GGT G 1.000 (G 1.000) GGT G 1.000 (G 1.000) GGT G 1.000 (G 1.000)
+ 145      2   TTG (L) TTG (L) TTG (L) TTG (L) :  TTG L 0.999 (L 1.000) TTG L 1.000 (L 1.000) TTG L 1.000 (L 1.000)
+ 146      6   GAC (D) GAC (D) GAC (D) GAC (D) :  GAC D 0.999 (D 1.000) GAC D 1.000 (D 1.000) GAC D 1.000 (D 1.000)
+ 147      3   CGC (R) CGC (R) CGC (R) CGC (R) :  CGC R 1.000 (R 1.000) CGC R 1.000 (R 1.000) CGC R 1.000 (R 1.000)
+ 148      3   ATC (I) ATC (I) ATC (I) ATC (I) :  ATC I 0.999 (I 1.000) ATC I 1.000 (I 1.000) ATC I 1.000 (I 1.000)
+ 149      1   AAA (K) AAG (K) AAA (K) AAG (K) :  AAG K 0.678 (K 1.000) AAG K 1.000 (K 1.000) AAA K 1.000 (K 1.000)
+ 150      4   GAG (E) GAG (E) GAG (E) GAG (E) :  GAG E 0.999 (E 1.000) GAG E 1.000 (E 1.000) GAG E 1.000 (E 1.000)
+ 151      7   CTG (L) CTG (L) CTG (L) CTG (L) :  CTG L 0.999 (L 1.000) CTG L 1.000 (L 1.000) CTG L 1.000 (L 1.000)
+ 152      8   CCC (P) CCC (P) CCC (P) CCC (P) :  CCC P 0.999 (P 1.000) CCC P 1.000 (P 1.000) CCC P 1.000 (P 1.000)
+ 153      3   GAA (E) GAA (E) GAA (E) GAA (E) :  GAA E 0.999 (E 1.000) GAA E 1.000 (E 1.000) GAA E 1.000 (E 1.000)
+ 154      1   CTC (L) CTC (L) CTC (L) CTC (L) :  CTC L 0.999 (L 1.000) CTC L 1.000 (L 1.000) CTC L 1.000 (L 1.000)
+ 155      1   TGG (W) TGG (W) TGG (W) TGG (W) :  TGG W 1.000 (W 1.000) TGG W 1.000 (W 1.000) TGG W 1.000 (W 1.000)
+ 156      7   CTG (L) CTG (L) CTG (L) CTG (L) :  CTG L 0.999 (L 1.000) CTG L 1.000 (L 1.000) CTG L 1.000 (L 1.000)
+ 157      7   GGG (G) GGG (G) GGG (G) GGG (G) :  GGG G 1.000 (G 1.000) GGG G 1.000 (G 1.000) GGG G 1.000 (G 1.000)
+ 158      1   CAA (Q) CAA (Q) CAA (Q) CAA (Q) :  CAA Q 0.999 (Q 1.000) CAA Q 1.000 (Q 1.000) CAA Q 1.000 (Q 1.000)
+ 159      6   AAC (N) AAC (N) AAC (N) AAC (N) :  AAC N 0.999 (N 1.000) AAC N 1.000 (N 1.000) AAC N 1.000 (N 1.000)
+ 160      4   GAG (E) GAG (E) GAG (E) GAG (E) :  GAG E 0.999 (E 1.000) GAG E 1.000 (E 1.000) GAG E 1.000 (E 1.000)
+ 161      3   TTT (F) TTT (F) TTT (F) TTT (F) :  TTT F 1.000 (F 1.000) TTT F 1.000 (F 1.000) TTT F 1.000 (F 1.000)
+ 162      2   GAT (D) GAT (D) GAT (D) GAT (D) :  GAT D 0.999 (D 1.000) GAT D 1.000 (D 1.000) GAT D 1.000 (D 1.000)
+ 163      3   TTT (F) TTT (F) TTT (F) TTT (F) :  TTT F 1.000 (F 1.000) TTT F 1.000 (F 1.000) TTT F 1.000 (F 1.000)
+ 164     15   ATG (M) ATG (M) ATG (M) ATG (M) :  ATG M 1.000 (M 1.000) ATG M 1.000 (M 1.000) ATG M 1.000 (M 1.000)
+ 165      2   ACG (T) ACG (T) ACG (T) ACG (T) :  ACG T 1.000 (T 1.000) ACG T 1.000 (T 1.000) ACG T 1.000 (T 1.000)
+ 166      6   GAC (D) GAC (D) GAC (D) GAC (D) :  GAC D 0.999 (D 1.000) GAC D 1.000 (D 1.000) GAC D 1.000 (D 1.000)
+ 167      6   TTC (F) TTC (F) TTC (F) TTC (F) :  TTC F 1.000 (F 1.000) TTC F 1.000 (F 1.000) TTC F 1.000 (F 1.000)
+ 168      5   GTG (V) GTG (V) GTG (V) GTG (V) :  GTG V 0.999 (V 1.000) GTG V 1.000 (V 1.000) GTG V 1.000 (V 1.000)
+ 169      1   TGC (C) TGC (C) TGC (C) TGC (C) :  TGC C 1.000 (C 1.000) TGC C 1.000 (C 1.000) TGC C 1.000 (C 1.000)
+ 170      1   AAA (K) AAA (K) AAA (K) AAA (K) :  AAA K 0.999 (K 1.000) AAA K 1.000 (K 1.000) AAA K 1.000 (K 1.000)
+ 171     12   CAG (Q) CAG (Q) CAG (Q) CAG (Q) :  CAG Q 0.999 (Q 1.000) CAG Q 1.000 (Q 1.000) CAG Q 1.000 (Q 1.000)
+ 172     12   CAG (Q) CAG (Q) CAG (Q) CAG (Q) :  CAG Q 0.999 (Q 1.000) CAG Q 1.000 (Q 1.000) CAG Q 1.000 (Q 1.000)
+ 173      1   CCT (P) CCC (P) CCT (P) CCC (P) :  CCC P 0.676 (P 1.000) CCC P 1.000 (P 1.000) CCT P 1.000 (P 1.000)
+ 174      6   AGC (S) AGC (S) AGC (S) AGC (S) :  AGC S 1.000 (S 1.000) AGC S 1.000 (S 1.000) AGC S 1.000 (S 1.000)
+ 175      1   AGA (R) AGA (R) AGA (R) AGA (R) :  AGA R 1.000 (R 1.000) AGA R 1.000 (R 1.000) AGA R 1.000 (R 1.000)
+ 176      5   GTG (V) GTG (V) GTG (V) GTG (V) :  GTG V 0.999 (V 1.000) GTG V 1.000 (V 1.000) GTG V 1.000 (V 1.000)
+ 177      6   AGC (S) AGC (S) AGC (S) AGC (S) :  AGC S 1.000 (S 1.000) AGC S 1.000 (S 1.000) AGC S 1.000 (S 1.000)
+ 178      1   TGT (C) TGT (C) TGT (C) TGT (C) :  TGT C 1.000 (C 1.000) TGT C 1.000 (C 1.000) TGT C 1.000 (C 1.000)
+
+Summary of changes along branches.
+Check root of tree for directions of change.
+
+Branch 1:    5..6  (n= 0.0 s= 0.0)
+
+
+
+Branch 2:    6..2  (homo)  (n= 0.0 s= 0.0)
+
+
+
+Branch 3:    6..4  (pongo)  (n= 0.0 s= 2.0)
+
+	  95 AAC (N) 1.000 -> AAT (N)
+	 138 TCC (S) 1.000 -> TCA (S)
+
+
+Branch 4:    5..7  (n= 0.0 s= 8.0)
+
+	  22 CAT (H) 1.000 -> CAC (H) 1.000
+	  47 GCC (A) 1.000 -> GCT (A) 1.000
+	  51 CTA (L) 1.000 -> CTG (L) 1.000
+	  86 GCG (A) 1.000 -> GCA (A) 1.000
+	 100 GGT (G) 1.000 -> GGC (G) 1.000
+	 105 AGC (S) 1.000 -> AGT (S) 1.000
+	 149 AAG (K) 1.000 -> AAA (K) 1.000
+	 173 CCC (P) 1.000 -> CCT (P) 1.000
+
+
+Branch 5:    7..3  (papio)  (n= 0.0 s= 1.0)
+
+	  84 CCG (P) 1.000 -> CCT (P)
+
+
+Branch 6:    7..1  (colobus)  (n= 0.0 s= 1.0)
+
+	  96 TCC (S) 1.000 -> TCG (S)
+
+
+
+
+List of extant and reconstructed sequences
+
+     7    534
+
+colobus           ATG GCA GAC CAT ATG ATG GCC ATG AAC CAC GGG CGC TTC CCC GAC GGC ACC AAT GGG CTG CAC CAC CAC CCT GCC CAC CGC ATG GGC ATG GGG CAG TTC CCG AGC CCC CAT CAC CAC CAG CAG CAG CAG CCC CAG CAC GCT TTC AAC GCC CTG ATG GGC GAG CAC ATA CAC TAC GGC GCG GGC AAC ATG AAT GCC ACG AGC GGC ATC AGG CAT GCG ATG GGG CCG GGG ACT GTG AAC GGA GGG CAC CCC CCG AGC GCA CTG GCC CCC GCG GCC AGG TTT AAC AAC TCG CAG TTC ATG GGC CCC CCG GTG GCC AGT CAG GGA GGC TCC CTG CCG GCC AGC ATG CAG CTG CAG AAG GCA ATG CTG CCG CCC AAT GTC ATA GAC ACT GAT TTC ATC GAC GAG GAA GTT CTT ATG TCC TTG GTG ATA GAA ATG GGT TTG GAC CGC ATC AAA GAG CTG CCC GAA CTC TGG CTG GGG CAA AAC GAG TTT GAT TTT ATG ACG GAC TTC GTG TGC AAA CAG CAG CCT AGC AGA GTG AGC TGT
+homo              ATG GCA GAC CAT ATG ATG GCC ATG AAC CAC GGG CGC TTC CCC GAC GGC ACC AAT GGG CTG CAC CAT CAC CCT GCC CAC CGC ATG GGC ATG GGG CAG TTC CCG AGC CCC CAT CAC CAC CAG CAG CAG CAG CCC CAG CAC GCC TTC AAC GCC CTA ATG GGC GAG CAC ATA CAC TAC GGC GCG GGC AAC ATG AAT GCC ACG AGC GGC ATC AGG CAT GCG ATG GGG CCG GGG ACT GTG AAC GGA GGG CAC CCC CCG AGC GCG CTG GCC CCC GCG GCC AGG TTT AAC AAC TCC CAG TTC ATG GGT CCC CCG GTG GCC AGC CAG GGA GGC TCC CTG CCG GCC AGC ATG CAG CTG CAG AAG GCA ATG CTG CCG CCC AAT GTC ATA GAC ACT GAT TTC ATC GAC GAG GAA GTT CTT ATG TCC TTG GTG ATA GAA ATG GGT TTG GAC CGC ATC AAG GAG CTG CCC GAA CTC TGG CTG GGG CAA AAC GAG TTT GAT TTT ATG ACG GAC TTC GTG TGC AAA CAG CAG CCC AGC AGA GTG AGC TGT
+papio             ATG GCA GAC CAT ATG ATG GCC ATG AAC CAC GGG CGC TTC CCC GAC GGC ACC AAT GGG CTG CAC CAC CAC CCT GCC CAC CGC ATG GGC ATG GGG CAG TTC CCG AGC CCC CAT CAC CAC CAG CAG CAG CAG CCC CAG CAC GCT TTC AAC GCC CTG ATG GGC GAG CAC ATA CAC TAC GGC GCG GGC AAC ATG AAT GCC ACG AGC GGC ATC AGG CAT GCG ATG GGG CCG GGG ACT GTG AAC GGA GGG CAC CCC CCT AGC GCA CTG GCC CCC GCG GCC AGG TTT AAC AAC TCC CAG TTC ATG GGC CCC CCG GTG GCC AGT CAG GGA GGC TCC CTG CCG GCC AGC ATG CAG CTG CAG AAG GCA ATG CTG CCG CCC AAT GTC ATA GAC ACT GAT TTC ATC GAC GAG GAA GTT CTT ATG TCC TTG GTG ATA GAA ATG GGT TTG GAC CGC ATC AAA GAG CTG CCC GAA CTC TGG CTG GGG CAA AAC GAG TTT GAT TTT ATG ACG GAC TTC GTG TGC AAA CAG CAG CCT AGC AGA GTG AGC TGT
+pongo             ATG GCA GAC CAT ATG ATG GCC ATG AAC CAC GGG CGC TTC CCC GAC GGC ACC AAT GGG CTG CAC CAT CAC CCT GCC CAC CGC ATG GGC ATG GGG CAG TTC CCG AGC CCC CAT CAC CAC CAG CAG CAG CAG CCC CAG CAC GCC TTC AAC GCC CTA ATG GGC GAG CAC ATA CAC TAC GGC GCG GGC AAC ATG AAT GCC ACG AGC GGC ATC AGG CAT GCG ATG GGG CCG GGG ACT GTG AAC GGA GGG CAC CCC CCG AGC GCG CTG GCC CCC GCG GCC AGG TTT AAC AAT TCC CAG TTC ATG GGT CCC CCG GTG GCC AGC CAG GGA GGC TCC CTG CCG GCC AGC ATG CAG CTG CAG AAG GCA ATG CTG CCG CCC AAT GTC ATA GAC ACT GAT TTC ATC GAC GAG GAA GTT CTT ATG TCA TTG GTG ATA GAA ATG GGT TTG GAC CGC ATC AAG GAG CTG CCC GAA CTC TGG CTG GGG CAA AAC GAG TTT GAT TTT ATG ACG GAC TTC GTG TGC AAA CAG CAG CCC AGC AGA GTG AGC TGT
+node #5           ATG GCA GAC CAT ATG ATG GCC ATG AAC CAC GGG CGC TTC CCC GAC GGC ACC AAT GGG CTG CAC CAT CAC CCT GCC CAC CGC ATG GGC ATG GGG CAG TTC CCG AGC CCC CAT CAC CAC CAG CAG CAG CAG CCC CAG CAC GCC TTC AAC GCC CTA ATG GGC GAG CAC ATA CAC TAC GGC GCG GGC AAC ATG AAT GCC ACG AGC GGC ATC AGG CAT GCG ATG GGG CCG GGG ACT GTG AAC GGA GGG CAC CCC CCG AGC GCG CTG GCC CCC GCG GCC AGG TTT AAC AAC TCC CAG TTC ATG GGT CCC CCG GTG GCC AGC CAG GGA GGC TCC CTG CCG GCC AGC ATG CAG CTG CAG AAG GCA ATG CTG CCG CCC AAT GTC ATA GAC ACT GAT TTC ATC GAC GAG GAA GTT CTT ATG TCC TTG GTG ATA GAA ATG GGT TTG GAC CGC ATC AAG GAG CTG CCC GAA CTC TGG CTG GGG CAA AAC GAG TTT GAT TTT ATG ACG GAC TTC GTG TGC AAA CAG CAG CCC AGC AGA GTG AGC TGT
+node #6           ATG GCA GAC CAT ATG ATG GCC ATG AAC CAC GGG CGC TTC CCC GAC GGC ACC AAT GGG CTG CAC CAT CAC CCT GCC CAC CGC ATG GGC ATG GGG CAG TTC CCG AGC CCC CAT CAC CAC CAG CAG CAG CAG CCC CAG CAC GCC TTC AAC GCC CTA ATG GGC GAG CAC ATA CAC TAC GGC GCG GGC AAC ATG AAT GCC ACG AGC GGC ATC AGG CAT GCG ATG GGG CCG GGG ACT GTG AAC GGA GGG CAC CCC CCG AGC GCG CTG GCC CCC GCG GCC AGG TTT AAC AAC TCC CAG TTC ATG GGT CCC CCG GTG GCC AGC CAG GGA GGC TCC CTG CCG GCC AGC ATG CAG CTG CAG AAG GCA ATG CTG CCG CCC AAT GTC ATA GAC ACT GAT TTC ATC GAC GAG GAA GTT CTT ATG TCC TTG GTG ATA GAA ATG GGT TTG GAC CGC ATC AAG GAG CTG CCC GAA CTC TGG CTG GGG CAA AAC GAG TTT GAT TTT ATG ACG GAC TTC GTG TGC AAA CAG CAG CCC AGC AGA GTG AGC TGT
+node #7           ATG GCA GAC CAT ATG ATG GCC ATG AAC CAC GGG CGC TTC CCC GAC GGC ACC AAT GGG CTG CAC CAC CAC CCT GCC CAC CGC ATG GGC ATG GGG CAG TTC CCG AGC CCC CAT CAC CAC CAG CAG CAG CAG CCC CAG CAC GCT TTC AAC GCC CTG ATG GGC GAG CAC ATA CAC TAC GGC GCG GGC AAC ATG AAT GCC ACG AGC GGC ATC AGG CAT GCG ATG GGG CCG GGG ACT GTG AAC GGA GGG CAC CCC CCG AGC GCA CTG GCC CCC GCG GCC AGG TTT AAC AAC TCC CAG TTC ATG GGC CCC CCG GTG GCC AGT CAG GGA GGC TCC CTG CCG GCC AGC ATG CAG CTG CAG AAG GCA ATG CTG CCG CCC AAT GTC ATA GAC ACT GAT TTC ATC GAC GAG GAA GTT CTT ATG TCC TTG GTG ATA GAA ATG GGT TTG GAC CGC ATC AAA GAG CTG CCC GAA CTC TGG CTG GGG CAA AAC GAG TTT GAT TTT ATG ACG GAC TTC GTG TGC AAA CAG CAG CCT AGC AGA GTG AGC TGT
+
+
+Overall accuracy of the 3 ancestral sequences:
+  0.98463  1.00000  0.99981
+for a site.
+
+  0.03697  0.99995  0.96663
+for the sequence.
+
+
+Amino acid sequences inferred by codonml.
+
+Node #5           MADHMMAMNH GRFPDGTNGL HHHPAHRMGM GQFPSPHHHQ QQQPQHAFNA LMGEHIHYGA GNMNATSGIR HAMGPGTVNG GHPPSALAPA ARFNNSQFMG PPVASQGGSL PASMQLQKAM LPPNVIDTDF IDEEVLMSLV IEMGLDRIKE LPELWLGQNE FDFMTDFVCK QQPSRVSC
+Node #6           MADHMMAMNH GRFPDGTNGL HHHPAHRMGM GQFPSPHHHQ QQQPQHAFNA LMGEHIHYGA GNMNATSGIR HAMGPGTVNG GHPPSALAPA ARFNNSQFMG PPVASQGGSL PASMQLQKAM LPPNVIDTDF IDEEVLMSLV IEMGLDRIKE LPELWLGQNE FDFMTDFVCK QQPSRVSC
+Node #7           MADHMMAMNH GRFPDGTNGL HHHPAHRMGM GQFPSPHHHQ QQQPQHAFNA LMGEHIHYGA GNMNATSGIR HAMGPGTVNG GHPPSALAPA ARFNNSQFMG PPVASQGGSL PASMQLQKAM LPPNVIDTDF IDEEVLMSLV IEMGLDRIKE LPELWLGQNE FDFMTDFVCK QQPSRVSC
+
+
+Counts of changes at sites, listed by site
+
+   1 (S N:   0.000  3.000 Sd Nd:    0.0   0.0)
+   2 (S N:   1.000  2.000 Sd Nd:    0.0   0.0)
+   3 (S N:   0.333  2.667 Sd Nd:    0.0   0.0)
+   4 (S N:   0.333  2.667 Sd Nd:    0.0   0.0)
+   5 (S N:   0.000  3.000 Sd Nd:    0.0   0.0)
+   6 (S N:   0.000  3.000 Sd Nd:    0.0   0.0)
+   7 (S N:   1.000  2.000 Sd Nd:    0.0   0.0)
+   8 (S N:   0.000  3.000 Sd Nd:    0.0   0.0)
+   9 (S N:   0.333  2.667 Sd Nd:    0.0   0.0)
+  10 (S N:   0.333  2.667 Sd Nd:    0.0   0.0)
+  11 (S N:   1.000  2.000 Sd Nd:    0.0   0.0)
+  12 (S N:   1.000  2.000 Sd Nd:    0.0   0.0)
+  13 (S N:   0.333  2.667 Sd Nd:    0.0   0.0)
+  14 (S N:   1.000  2.000 Sd Nd:    0.0   0.0)
+  15 (S N:   0.333  2.667 Sd Nd:    0.0   0.0)
+  16 (S N:   1.000  2.000 Sd Nd:    0.0   0.0)
+  17 (S N:   1.000  2.000 Sd Nd:    0.0   0.0)
+  18 (S N:   0.333  2.667 Sd Nd:    0.0   0.0)
+  19 (S N:   1.000  2.000 Sd Nd:    0.0   0.0)
+  20 (S N:   1.333  1.667 Sd Nd:    0.0   0.0)
+  21 (S N:   0.333  2.667 Sd Nd:    0.0   0.0)
+  22  CAT.CAC (S N:   0.333  2.667 Sd Nd:    1.0   0.0)
+  23 (S N:   0.333  2.667 Sd Nd:    0.0   0.0)
+  24 (S N:   1.000  2.000 Sd Nd:    0.0   0.0)
+  25 (S N:   1.000  2.000 Sd Nd:    0.0   0.0)
+  26 (S N:   0.333  2.667 Sd Nd:    0.0   0.0)
+  27 (S N:   1.000  2.000 Sd Nd:    0.0   0.0)
+  28 (S N:   0.000  3.000 Sd Nd:    0.0   0.0)
+  29 (S N:   1.000  2.000 Sd Nd:    0.0   0.0)
+  30 (S N:   0.000  3.000 Sd Nd:    0.0   0.0)
+  31 (S N:   1.000  2.000 Sd Nd:    0.0   0.0)
+  32 (S N:   0.375  2.625 Sd Nd:    0.0   0.0)
+  33 (S N:   0.333  2.667 Sd Nd:    0.0   0.0)
+  34 (S N:   1.000  2.000 Sd Nd:    0.0   0.0)
+  35 (S N:   0.333  2.667 Sd Nd:    0.0   0.0)
+  36 (S N:   1.000  2.000 Sd Nd:    0.0   0.0)
+  37 (S N:   0.333  2.667 Sd Nd:    0.0   0.0)
+  38 (S N:   0.333  2.667 Sd Nd:    0.0   0.0)
+  39 (S N:   0.333  2.667 Sd Nd:    0.0   0.0)
+  40 (S N:   0.375  2.625 Sd Nd:    0.0   0.0)
+  41 (S N:   0.375  2.625 Sd Nd:    0.0   0.0)
+  42 (S N:   0.375  2.625 Sd Nd:    0.0   0.0)
+  43 (S N:   0.375  2.625 Sd Nd:    0.0   0.0)
+  44 (S N:   1.000  2.000 Sd Nd:    0.0   0.0)
+  45 (S N:   0.375  2.625 Sd Nd:    0.0   0.0)
+  46 (S N:   0.333  2.667 Sd Nd:    0.0   0.0)
+  47  GCC.GCT (S N:   1.000  2.000 Sd Nd:    1.0   0.0)
+  48 (S N:   0.333  2.667 Sd Nd:    0.0   0.0)
+  49 (S N:   0.333  2.667 Sd Nd:    0.0   0.0)
+  50 (S N:   1.000  2.000 Sd Nd:    0.0   0.0)
+  51  CTA.CTG (S N:   1.333  1.667 Sd Nd:    1.0   0.0)
+  52 (S N:   0.000  3.000 Sd Nd:    0.0   0.0)
+  53 (S N:   1.000  2.000 Sd Nd:    0.0   0.0)
+  54 (S N:   0.375  2.625 Sd Nd:    0.0   0.0)
+  55 (S N:   0.333  2.667 Sd Nd:    0.0   0.0)
+  56 (S N:   0.667  2.333 Sd Nd:    0.0   0.0)
+  57 (S N:   0.333  2.667 Sd Nd:    0.0   0.0)
+  58 (S N:   0.429  2.571 Sd Nd:    0.0   0.0)
+  59 (S N:   1.000  2.000 Sd Nd:    0.0   0.0)
+  60 (S N:   1.000  2.000 Sd Nd:    0.0   0.0)
+  61 (S N:   1.000  2.000 Sd Nd:    0.0   0.0)
+  62 (S N:   0.333  2.667 Sd Nd:    0.0   0.0)
+  63 (S N:   0.000  3.000 Sd Nd:    0.0   0.0)
+  64 (S N:   0.333  2.667 Sd Nd:    0.0   0.0)
+  65 (S N:   1.000  2.000 Sd Nd:    0.0   0.0)
+  66 (S N:   1.000  2.000 Sd Nd:    0.0   0.0)
+  67 (S N:   0.333  2.667 Sd Nd:    0.0   0.0)
+  68 (S N:   1.000  2.000 Sd Nd:    0.0   0.0)
+  69 (S N:   0.667  2.333 Sd Nd:    0.0   0.0)
+  70 (S N:   0.667  2.333 Sd Nd:    0.0   0.0)
+  71 (S N:   0.333  2.667 Sd Nd:    0.0   0.0)
+  72 (S N:   1.000  2.000 Sd Nd:    0.0   0.0)
+  73 (S N:   0.000  3.000 Sd Nd:    0.0   0.0)
+  74 (S N:   1.000  2.000 Sd Nd:    0.0   0.0)
+  75 (S N:   1.000  2.000 Sd Nd:    0.0   0.0)
+  76 (S N:   1.000  2.000 Sd Nd:    0.0   0.0)
+  77 (S N:   1.000  2.000 Sd Nd:    0.0   0.0)
+  78 (S N:   1.000  2.000 Sd Nd:    0.0   0.0)
+  79 (S N:   0.333  2.667 Sd Nd:    0.0   0.0)
+  80 (S N:   1.125  1.875 Sd Nd:    0.0   0.0)
+  81 (S N:   1.000  2.000 Sd Nd:    0.0   0.0)
+  82 (S N:   0.333  2.667 Sd Nd:    0.0   0.0)
+  83 (S N:   1.000  2.000 Sd Nd:    0.0   0.0)
+  84  CCG.CCT (S N:   1.000  2.000 Sd Nd:    1.0   0.0)
+  85 (S N:   0.333  2.667 Sd Nd:    0.0   0.0)
+  86  GCG.GCA (S N:   1.000  2.000 Sd Nd:    1.0   0.0)
+  87 (S N:   1.333  1.667 Sd Nd:    0.0   0.0)
+  88 (S N:   1.000  2.000 Sd Nd:    0.0   0.0)
+  89 (S N:   1.000  2.000 Sd Nd:    0.0   0.0)
+  90 (S N:   1.000  2.000 Sd Nd:    0.0   0.0)
+  91 (S N:   1.000  2.000 Sd Nd:    0.0   0.0)
+  92 (S N:   0.667  2.333 Sd Nd:    0.0   0.0)
+  93 (S N:   0.333  2.667 Sd Nd:    0.0   0.0)
+  94 (S N:   0.333  2.667 Sd Nd:    0.0   0.0)
+  95  AAC.AAT (S N:   0.333  2.667 Sd Nd:    1.0   0.0)
+  96  TCC.TCG (S N:   1.005  1.995 Sd Nd:    1.0   0.0)
+  97 (S N:   0.375  2.625 Sd Nd:    0.0   0.0)
+  98 (S N:   0.333  2.667 Sd Nd:    0.0   0.0)
+  99 (S N:   0.000  3.000 Sd Nd:    0.0   0.0)
+ 100  GGT.GGC (S N:   1.000  2.000 Sd Nd:    1.0   0.0)
+ 101 (S N:   1.000  2.000 Sd Nd:    0.0   0.0)
+ 102 (S N:   1.000  2.000 Sd Nd:    0.0   0.0)
+ 103 (S N:   1.000  2.000 Sd Nd:    0.0   0.0)
+ 104 (S N:   1.000  2.000 Sd Nd:    0.0   0.0)
+ 105  AGC.AGT (S N:   0.333  2.667 Sd Nd:    1.0   0.0)
+ 106 (S N:   0.375  2.625 Sd Nd:    0.0   0.0)
+ 107 (S N:   1.125  1.875 Sd Nd:    0.0   0.0)
+ 108 (S N:   1.000  2.000 Sd Nd:    0.0   0.0)
+ 109 (S N:   1.000  2.000 Sd Nd:    0.0   0.0)
+ 110 (S N:   1.333  1.667 Sd Nd:    0.0   0.0)
+ 111 (S N:   1.000  2.000 Sd Nd:    0.0   0.0)
+ 112 (S N:   1.000  2.000 Sd Nd:    0.0   0.0)
+ 113 (S N:   0.333  2.667 Sd Nd:    0.0   0.0)
+ 114 (S N:   0.000  3.000 Sd Nd:    0.0   0.0)
+ 115 (S N:   0.375  2.625 Sd Nd:    0.0   0.0)
+ 116 (S N:   1.333  1.667 Sd Nd:    0.0   0.0)
+ 117 (S N:   0.375  2.625 Sd Nd:    0.0   0.0)
+ 118 (S N:   0.375  2.625 Sd Nd:    0.0   0.0)
+ 119 (S N:   1.000  2.000 Sd Nd:    0.0   0.0)
+ 120 (S N:   0.000  3.000 Sd Nd:    0.0   0.0)
+ 121 (S N:   1.333  1.667 Sd Nd:    0.0   0.0)
+ 122 (S N:   1.000  2.000 Sd Nd:    0.0   0.0)
+ 123 (S N:   1.000  2.000 Sd Nd:    0.0   0.0)
+ 124 (S N:   0.333  2.667 Sd Nd:    0.0   0.0)
+ 125 (S N:   1.000  2.000 Sd Nd:    0.0   0.0)
+ 126 (S N:   0.667  2.333 Sd Nd:    0.0   0.0)
+ 127 (S N:   0.333  2.667 Sd Nd:    0.0   0.0)
+ 128 (S N:   1.000  2.000 Sd Nd:    0.0   0.0)
+ 129 (S N:   0.333  2.667 Sd Nd:    0.0   0.0)
+ 130 (S N:   0.333  2.667 Sd Nd:    0.0   0.0)
+ 131 (S N:   0.667  2.333 Sd Nd:    0.0   0.0)
+ 132 (S N:   0.333  2.667 Sd Nd:    0.0   0.0)
+ 133 (S N:   0.375  2.625 Sd Nd:    0.0   0.0)
+ 134 (S N:   0.375  2.625 Sd Nd:    0.0   0.0)
+ 135 (S N:   1.000  2.000 Sd Nd:    0.0   0.0)
+ 136 (S N:   1.000  2.000 Sd Nd:    0.0   0.0)
+ 137 (S N:   0.000  3.000 Sd Nd:    0.0   0.0)
+ 138  TCC.TCA (S N:   1.018  1.982 Sd Nd:    1.0   0.0)
+ 139 (S N:   0.750  2.250 Sd Nd:    0.0   0.0)
+ 140 (S N:   1.000  2.000 Sd Nd:    0.0   0.0)
+ 141 (S N:   0.667  2.333 Sd Nd:    0.0   0.0)
+ 142 (S N:   0.375  2.625 Sd Nd:    0.0   0.0)
+ 143 (S N:   0.000  3.000 Sd Nd:    0.0   0.0)
+ 144 (S N:   1.000  2.000 Sd Nd:    0.0   0.0)
+ 145 (S N:   0.750  2.250 Sd Nd:    0.0   0.0)
+ 146 (S N:   0.333  2.667 Sd Nd:    0.0   0.0)
+ 147 (S N:   1.000  2.000 Sd Nd:    0.0   0.0)
+ 148 (S N:   0.667  2.333 Sd Nd:    0.0   0.0)
+ 149  AAG.AAA (S N:   0.375  2.625 Sd Nd:    1.0   0.0)
+ 150 (S N:   0.375  2.625 Sd Nd:    0.0   0.0)
+ 151 (S N:   1.333  1.667 Sd Nd:    0.0   0.0)
+ 152 (S N:   1.000  2.000 Sd Nd:    0.0   0.0)
+ 153 (S N:   0.375  2.625 Sd Nd:    0.0   0.0)
+ 154 (S N:   1.000  2.000 Sd Nd:    0.0   0.0)
+ 155 (S N:   0.000  3.000 Sd Nd:    0.0   0.0)
+ 156 (S N:   1.333  1.667 Sd Nd:    0.0   0.0)
+ 157 (S N:   1.000  2.000 Sd Nd:    0.0   0.0)
+ 158 (S N:   0.375  2.625 Sd Nd:    0.0   0.0)
+ 159 (S N:   0.333  2.667 Sd Nd:    0.0   0.0)
+ 160 (S N:   0.375  2.625 Sd Nd:    0.0   0.0)
+ 161 (S N:   0.333  2.667 Sd Nd:    0.0   0.0)
+ 162 (S N:   0.333  2.667 Sd Nd:    0.0   0.0)
+ 163 (S N:   0.333  2.667 Sd Nd:    0.0   0.0)
+ 164 (S N:   0.000  3.000 Sd Nd:    0.0   0.0)
+ 165 (S N:   1.000  2.000 Sd Nd:    0.0   0.0)
+ 166 (S N:   0.333  2.667 Sd Nd:    0.0   0.0)
+ 167 (S N:   0.333  2.667 Sd Nd:    0.0   0.0)
+ 168 (S N:   1.000  2.000 Sd Nd:    0.0   0.0)
+ 169 (S N:   0.375  2.625 Sd Nd:    0.0   0.0)
+ 170 (S N:   0.375  2.625 Sd Nd:    0.0   0.0)
+ 171 (S N:   0.375  2.625 Sd Nd:    0.0   0.0)
+ 172 (S N:   0.375  2.625 Sd Nd:    0.0   0.0)
+ 173  CCC.CCT (S N:   1.000  2.000 Sd Nd:    1.0   0.0)
+ 174 (S N:   0.333  2.667 Sd Nd:    0.0   0.0)
+ 175 (S N:   0.750  2.250 Sd Nd:    0.0   0.0)
+ 176 (S N:   1.000  2.000 Sd Nd:    0.0   0.0)
+ 177 (S N:   0.333  2.667 Sd Nd:    0.0   0.0)
+ 178 (S N:   0.375  2.625 Sd Nd:    0.0   0.0)
+
+
+(2) Joint reconstruction of ancestral sequences
+(eqn. 2 in Yang et al. 1995 Genetics 141:1641-1650), using the algorithm of Pupko et al. (2000 Mol Biol Evol 17:890-896),
+modified to generate sub-optimal reconstructions.
+
+Reconstruction (prob.), listed by pattern (use the observed data to find the right site).
+
+Pattern Freq   Data:
+
+   1       1  AAA (K) AAA (K) AAA (K) AAA (K) : AAA AAA AAA  (0.999) AAG AAA AAA  (0.001) AAA AAA AAG  (0.000) AAG AAA AAG  (0.000) AAG AAG AAA  (0.000) AAA AAG AAA  (0.000)  (total  1.000)
+   2       1  AAA (K) AAG (K) AAA (K) AAG (K) : AAG AAG AAA  (0.678) AAA AAG AAA  (0.322) AAG AAG AAG  (0.000) AAA AAA AAA  (0.000) AAA AAG AAG  (0.000) AAG AAA AAA  (0.000)  (total  1.000)
+   3       6  AAC (N) AAC (N) AAC (N) AAC (N) : AAC AAC AAC  (0.999) AAT AAC AAC  (0.001) AAC AAC AAT  (0.000) AAT AAC AAT  (0.000) AAT AAT AAC  (0.000) AAC AAT AAC  (0.000)  (total  1.000)
+   4       1  AAC (N) AAC (N) AAC (N) AAT (N) : AAC AAC AAC  (0.999) AAT AAC AAC  (0.001) AAT AAT AAC  (0.000) AAC AAT AAC  (0.000) AAC AAC AAT  (0.000) AAT AAC AAT  (0.000)  (total  1.000)
+   5       1  AAG (K) AAG (K) AAG (K) AAG (K) : AAG AAG AAG  (1.000) AAA AAG AAG  (0.000) AAG AAG AAA  (0.000) AAA AAG AAA  (0.000) AAA AAA AAG  (0.000) AAG AAA AAG  (0.000)  (total  1.000)
+   6       3  AAT (N) AAT (N) AAT (N) AAT (N) : AAT AAT AAT  (0.999) AAC AAT AAT  (0.001) AAT AAT AAC  (0.000) AAC AAT AAC  (0.000) AAC AAC AAT  (0.000) AAT AAC AAT  (0.000)  (total  1.000)
+   7       1  ACC (T) ACC (T) ACC (T) ACC (T) : ACC ACC ACC  (1.000) ACT ACC ACC  (0.000) ACG ACC ACC  (0.000) ACA ACC ACC  (0.000) ACC ACC ACT  (0.000) ACT ACC ACT  (0.000)  (total  1.000)
+   8       2  ACG (T) ACG (T) ACG (T) ACG (T) : ACG ACG ACG  (1.000) ACA ACG ACG  (0.000) ACC ACG ACG  (0.000) ACT ACG ACG  (0.000) ACG ACG ACA  (0.000) ACA ACG ACA  (0.000)  (total  1.000)
+   9       2  ACT (T) ACT (T) ACT (T) ACT (T) : ACT ACT ACT  (1.000) ACC ACT ACT  (0.000) ACG ACT ACT  (0.000) ACA ACT ACT  (0.000) ACT ACT ACC  (0.000) ACC ACT ACC  (0.000)  (total  1.000)
+  10       1  AGA (R) AGA (R) AGA (R) AGA (R) : AGA AGA AGA  (1.000) AGG AGA AGA  (0.000) CGA AGA AGA  (0.000) AGA AGA AGG  (0.000) AGG AGA AGG  (0.000) CGG AGA AGA  (0.000)  (total  1.000)
+  11       6  AGC (S) AGC (S) AGC (S) AGC (S) : AGC AGC AGC  (1.000) AGT AGC AGC  (0.000) AGC AGC AGT  (0.000) AGT AGC AGT  (0.000) AGT AGT AGC  (0.000) AGC AGT AGC  (0.000)  (total  1.000)
+  12       2  AGG (R) AGG (R) AGG (R) AGG (R) : AGG AGG AGG  (1.000) AGA AGG AGG  (0.000) CGG AGG AGG  (0.000) AGG AGG AGA  (0.000) AGA AGG AGA  (0.000) AGG AGG CGG  (0.000)  (total  1.000)
+  13       1  AGT (S) AGC (S) AGT (S) AGC (S) : AGC AGC AGT  (0.674) AGT AGC AGT  (0.325) AGC AGC AGC  (0.000) AGT AGT AGT  (0.000) AGT AGC AGC  (0.000) AGC AGT AGT  (0.000)  (total  1.000)
+  14       3  ATA (I) ATA (I) ATA (I) ATA (I) : ATA ATA ATA  (1.000) ATC ATA ATA  (0.000) ATT ATA ATA  (0.000) ATA ATA ATC  (0.000) ATC ATA ATC  (0.000) ATA ATA ATT  (0.000)  (total  1.000)
+  15       3  ATC (I) ATC (I) ATC (I) ATC (I) : ATC ATC ATC  (0.999) ATT ATC ATC  (0.001) ATA ATC ATC  (0.000) ATC ATC ATT  (0.000) ATT ATC ATT  (0.000) ATC ATC ATA  (0.000)  (total  1.000)
+  16      15  ATG (M) ATG (M) ATG (M) ATG (M) : ATG ATG ATG  (1.000) GTG ATG ATG  (0.000) ACG ATG ATG  (0.000) ATA ATG ATG  (0.000) AAG ATG ATG  (0.000) CTG ATG ATG  (0.000)  (total  1.000)
+  17       1  CAA (Q) CAA (Q) CAA (Q) CAA (Q) : CAA CAA CAA  (0.999) CAG CAA CAA  (0.001) CAA CAA CAG  (0.000) CAG CAA CAG  (0.000) CAG CAG CAA  (0.000) CAA CAG CAA  (0.000)  (total  1.000)
+  18      10  CAC (H) CAC (H) CAC (H) CAC (H) : CAC CAC CAC  (0.999) CAT CAC CAC  (0.001) CAC CAC CAT  (0.000) CAT CAC CAT  (0.000) CAT CAT CAC  (0.000) CAC CAT CAC  (0.000)  (total  1.000)
+  19       1  CAC (H) CAT (H) CAC (H) CAT (H) : CAT CAT CAC  (0.658) CAC CAT CAC  (0.340) CAT CAT CAT  (0.002) CAC CAT CAT  (0.000) CAC CAC CAC  (0.000) CAT CAC CAC  (0.000)  (total  1.000)
+  20      12  CAG (Q) CAG (Q) CAG (Q) CAG (Q) : CAG CAG CAG  (0.999) CAA CAG CAG  (0.001) CAG CAG CAA  (0.000) CAA CAG CAA  (0.000) CAA CAA CAG  (0.000) CAG CAA CAG  (0.000)  (total  1.000)
+  21       3  CAT (H) CAT (H) CAT (H) CAT (H) : CAT CAT CAT  (0.999) CAC CAT CAT  (0.001) CAT CAT CAC  (0.000) CAC CAT CAC  (0.000) CAC CAC CAT  (0.000) CAT CAC CAT  (0.000)  (total  1.000)
+  22       8  CCC (P) CCC (P) CCC (P) CCC (P) : CCC CCC CCC  (0.999) CCT CCC CCC  (0.000) CCG CCC CCC  (0.000) CCA CCC CCC  (0.000) CCC CCC CCT  (0.000) CCT CCC CCT  (0.000)  (total  1.000)
+  23       5  CCG (P) CCG (P) CCG (P) CCG (P) : CCG CCG CCG  (1.000) CCA CCG CCG  (0.000) CCC CCG CCG  (0.000) CCT CCG CCG  (0.000) CCG CCG CCA  (0.000) CCA CCG CCA  (0.000)  (total  1.000)
+  24       1  CCG (P) CCG (P) CCT (P) CCG (P) : CCG CCG CCG  (0.979) CCG CCG CCT  (0.013) CCT CCG CCT  (0.006) CCC CCG CCT  (0.000) CCA CCG CCG  (0.000) CCG CCG CCC  (0.000)  (total  1.000)
+  25       1  CCT (P) CCC (P) CCT (P) CCC (P) : CCC CCC CCT  (0.675) CCT CCC CCT  (0.323) CCG CCC CCT  (0.001) CCC CCC CCC  (0.000) CCA CCC CCT  (0.000) CCT CCT CCT  (0.000)  (total  1.000)
+  26       1  CCT (P) CCT (P) CCT (P) CCT (P) : CCT CCT CCT  (0.999) CCC CCT CCT  (0.001) CCG CCT CCT  (0.000) CCA CCT CCT  (0.000) CCT CCT CCC  (0.000) CCC CCT CCC  (0.000)  (total  1.000)
+  27       3  CGC (R) CGC (R) CGC (R) CGC (R) : CGC CGC CGC  (1.000) CGT CGC CGC  (0.000) CGG CGC CGC  (0.000) CGA CGC CGC  (0.000) CGC CGC CGT  (0.000) CGT CGC CGT  (0.000)  (total  1.000)
+  28       1  CTC (L) CTC (L) CTC (L) CTC (L) : CTC CTC CTC  (0.999) CTT CTC CTC  (0.001) CTG CTC CTC  (0.000) CTA CTC CTC  (0.000) CTC CTC CTT  (0.000) CTT CTC CTT  (0.000)  (total  1.000)
+  29       1  CTG (L) CTA (L) CTG (L) CTA (L) : CTA CTA CTG  (0.661) CTG CTA CTG  (0.336) CTC CTA CTG  (0.002) CTA CTA CTA  (0.001) CTT CTA CTG  (0.000) TTG CTA CTG  (0.000)  (total  1.000)
+  30       7  CTG (L) CTG (L) CTG (L) CTG (L) : CTG CTG CTG  (0.999) TTG CTG CTG  (0.001) CTA CTG CTG  (0.001) CTC CTG CTG  (0.000) CTT CTG CTG  (0.000) CTG CTG TTG  (0.000)  (total  1.000)
+  31       1  CTT (L) CTT (L) CTT (L) CTT (L) : CTT CTT CTT  (0.999) CTC CTT CTT  (0.001) CTG CTT CTT  (0.000) CTA CTT CTT  (0.000) CTT CTT CTC  (0.000) CTC CTT CTC  (0.000)  (total  1.000)
+  32       3  GAA (E) GAA (E) GAA (E) GAA (E) : GAA GAA GAA  (0.999) GAG GAA GAA  (0.001) GAA GAA GAG  (0.000) GAG GAA GAG  (0.000) GAG GAG GAA  (0.000) GAA GAG GAA  (0.000)  (total  1.000)
+  33       6  GAC (D) GAC (D) GAC (D) GAC (D) : GAC GAC GAC  (0.999) GAT GAC GAC  (0.001) GAC GAC GAT  (0.000) GAT GAC GAT  (0.000) GAT GAT GAC  (0.000) GAC GAT GAC  (0.000)  (total  1.000)
+  34       4  GAG (E) GAG (E) GAG (E) GAG (E) : GAG GAG GAG  (0.999) GAA GAG GAG  (0.001) GAG GAG GAA  (0.000) GAA GAG GAA  (0.000) GAA GAA GAG  (0.000) GAG GAA GAG  (0.000)  (total  1.000)
+  35       2  GAT (D) GAT (D) GAT (D) GAT (D) : GAT GAT GAT  (0.999) GAC GAT GAT  (0.001) GAT GAT GAC  (0.000) GAC GAT GAC  (0.000) GAC GAC GAT  (0.000) GAT GAC GAT  (0.000)  (total  1.000)
+  36       2  GCA (A) GCA (A) GCA (A) GCA (A) : GCA GCA GCA  (1.000) GCG GCA GCA  (0.000) GCC GCA GCA  (0.000) GCT GCA GCA  (0.000) GCA GCA GCG  (0.000) GCG GCA GCG  (0.000)  (total  1.000)
+  37       1  GCA (A) GCG (A) GCA (A) GCG (A) : GCG GCG GCA  (0.675) GCA GCG GCA  (0.323) GCC GCG GCA  (0.001) GCT GCG GCA  (0.000) GCG GCG GCG  (0.000) GCA GCA GCA  (0.000)  (total  1.000)
+  38       8  GCC (A) GCC (A) GCC (A) GCC (A) : GCC GCC GCC  (0.999) GCT GCC GCC  (0.000) GCG GCC GCC  (0.000) GCA GCC GCC  (0.000) GCC GCC GCT  (0.000) GCT GCC GCT  (0.000)  (total  1.000)
+  39       3  GCG (A) GCG (A) GCG (A) GCG (A) : GCG GCG GCG  (1.000) GCA GCG GCG  (0.000) GCC GCG GCG  (0.000) GCT GCG GCG  (0.000) GCG GCG GCA  (0.000) GCA GCG GCA  (0.000)  (total  1.000)
+  40       1  GCT (A) GCC (A) GCT (A) GCC (A) : GCC GCC GCT  (0.675) GCT GCC GCT  (0.323) GCG GCC GCT  (0.001) GCC GCC GCC  (0.000) GCA GCC GCT  (0.000) GCT GCT GCT  (0.000)  (total  1.000)
+  41       2  GGA (G) GGA (G) GGA (G) GGA (G) : GGA GGA GGA  (1.000) GGG GGA GGA  (0.000) GGC GGA GGA  (0.000) GGT GGA GGA  (0.000) GGA GGA GGG  (0.000) GGG GGA GGG  (0.000)  (total  1.000)
+  42       7  GGC (G) GGC (G) GGC (G) GGC (G) : GGC GGC GGC  (1.000) GGT GGC GGC  (0.000) GGG GGC GGC  (0.000) GGA GGC GGC  (0.000) GGC GGC GGT  (0.000) GGT GGC GGT  (0.000)  (total  1.000)
+  43       1  GGC (G) GGT (G) GGC (G) GGT (G) : GGT GGT GGC  (0.662) GGC GGT GGC  (0.336) GGT GGT GGT  (0.001) GGG GGT GGC  (0.001) GGA GGT GGC  (0.000) GGT GGT GGG  (0.000)  (total  1.000)
+  44       7  GGG (G) GGG (G) GGG (G) GGG (G) : GGG GGG GGG  (1.000) GGA GGG GGG  (0.000) GGC GGG GGG  (0.000) GGT GGG GGG  (0.000) GGG GGG GGA  (0.000) GGA GGG GGA  (0.000)  (total  1.000)
+  45       1  GGT (G) GGT (G) GGT (G) GGT (G) : GGT GGT GGT  (1.000) GGC GGT GGT  (0.000) GGG GGT GGT  (0.000) GGA GGT GGT  (0.000) GGT GGT GGC  (0.000) GGC GGT GGC  (0.000)  (total  1.000)
+  46       1  GTC (V) GTC (V) GTC (V) GTC (V) : GTC GTC GTC  (0.999) GTT GTC GTC  (0.001) GTG GTC GTC  (0.000) GTA GTC GTC  (0.000) GTC GTC GTT  (0.000) GTT GTC GTT  (0.000)  (total  1.000)
+  47       5  GTG (V) GTG (V) GTG (V) GTG (V) : GTG GTG GTG  (0.999) GTA GTG GTG  (0.000) GTC GTG GTG  (0.000) GTT GTG GTG  (0.000) GTG GTG GTA  (0.000) GTA GTG GTA  (0.000)  (total  1.000)
+  48       1  GTT (V) GTT (V) GTT (V) GTT (V) : GTT GTT GTT  (0.999) GTC GTT GTT  (0.001) GTG GTT GTT  (0.000) GTA GTT GTT  (0.000) GTT GTT GTC  (0.000) GTC GTT GTC  (0.000)  (total  1.000)
+  49       1  TAC (Y) TAC (Y) TAC (Y) TAC (Y) : TAC TAC TAC  (1.000) TAT TAC TAC  (0.000) TAC TAC TAT  (0.000) TAT TAC TAT  (0.000) TAT TAT TAC  (0.000) TAC TAT TAC  (0.000)  (total  1.000)
+  50       1  TCC (S) TCC (S) TCC (S) TCA (S) : TCC TCC TCC  (1.000) TCT TCC TCC  (0.000) TCG TCC TCC  (0.000) TCA TCC TCC  (0.000) TCA TCA TCC  (0.000) TCC TCA TCC  (0.000)  (total  1.000)
+  51       1  TCC (S) TCC (S) TCC (S) TCC (S) : TCC TCC TCC  (1.000) TCT TCC TCC  (0.000) TCG TCC TCC  (0.000) TCA TCC TCC  (0.000) TCC TCC TCT  (0.000) TCT TCC TCT  (0.000)  (total  1.000)
+  52       1  TCG (S) TCC (S) TCC (S) TCC (S) : TCC TCC TCC  (0.993) TCC TCC TCG  (0.004) TCG TCC TCG  (0.002) TCT TCC TCC  (0.000) TCC TCC TCT  (0.000) TCT TCC TCG  (0.000)  (total  1.000)
+  53       1  TGC (C) TGC (C) TGC (C) TGC (C) : TGC TGC TGC  (1.000) TGT TGC TGC  (0.000) TGC TGC TGT  (0.000) TGT TGC TGT  (0.000) TGT TGT TGC  (0.000) TGC TGT TGC  (0.000)  (total  1.000)
+  54       1  TGG (W) TGG (W) TGG (W) TGG (W) : TGG TGG TGG  (1.000) CGG TGG TGG  (0.000) GGG TGG TGG  (0.000) AGG TGG TGG  (0.000) TTG TGG TGG  (0.000) TCG TGG TGG  (0.000)  (total  1.000)
+  55       1  TGT (C) TGT (C) TGT (C) TGT (C) : TGT TGT TGT  (1.000) TGC TGT TGT  (0.000) TGT TGT TGC  (0.000) TGC TGT TGC  (0.000) TGC TGC TGT  (0.000) TGT TGC TGT  (0.000)  (total  1.000)
+  56       6  TTC (F) TTC (F) TTC (F) TTC (F) : TTC TTC TTC  (1.000) TTT TTC TTC  (0.000) TTC TTC TTT  (0.000) TTT TTC TTT  (0.000) TTT TTT TTC  (0.000) TTC TTT TTC  (0.000)  (total  1.000)
+  57       2  TTG (L) TTG (L) TTG (L) TTG (L) : TTG TTG TTG  (0.999) CTG TTG TTG  (0.001) TTA TTG TTG  (0.000) TTG TTG CTG  (0.000) CTG TTG CTG  (0.000) CTA TTG TTG  (0.000)  (total  1.000)
+  58       3  TTT (F) TTT (F) TTT (F) TTT (F) : TTT TTT TTT  (1.000) TTC TTT TTT  (0.000) TTT TTT TTC  (0.000) TTC TTT TTC  (0.000) TTC TTC TTT  (0.000) TTT TTC TTT  (0.000)  (total  1.000)
+
+
+
+List of extant and reconstructed sequences
+
+     7    534
+
+colobus           ATG GCA GAC CAT ATG ATG GCC ATG AAC CAC GGG CGC TTC CCC GAC GGC ACC AAT GGG CTG CAC CAC CAC CCT GCC CAC CGC ATG GGC ATG GGG CAG TTC CCG AGC CCC CAT CAC CAC CAG CAG CAG CAG CCC CAG CAC GCT TTC AAC GCC CTG ATG GGC GAG CAC ATA CAC TAC GGC GCG GGC AAC ATG AAT GCC ACG AGC GGC ATC AGG CAT GCG ATG GGG CCG GGG ACT GTG AAC GGA GGG CAC CCC CCG AGC GCA CTG GCC CCC GCG GCC AGG TTT AAC AAC TCG CAG TTC ATG GGC CCC CCG GTG GCC AGT CAG GGA GGC TCC CTG CCG GCC AGC ATG CAG CTG CAG AAG GCA ATG CTG CCG CCC AAT GTC ATA GAC ACT GAT TTC ATC GAC GAG GAA GTT CTT ATG TCC TTG GTG ATA GAA ATG GGT TTG GAC CGC ATC AAA GAG CTG CCC GAA CTC TGG CTG GGG CAA AAC GAG TTT GAT TTT ATG ACG GAC TTC GTG TGC AAA CAG CAG CCT AGC AGA GTG AGC TGT
+homo              ATG GCA GAC CAT ATG ATG GCC ATG AAC CAC GGG CGC TTC CCC GAC GGC ACC AAT GGG CTG CAC CAT CAC CCT GCC CAC CGC ATG GGC ATG GGG CAG TTC CCG AGC CCC CAT CAC CAC CAG CAG CAG CAG CCC CAG CAC GCC TTC AAC GCC CTA ATG GGC GAG CAC ATA CAC TAC GGC GCG GGC AAC ATG AAT GCC ACG AGC GGC ATC AGG CAT GCG ATG GGG CCG GGG ACT GTG AAC GGA GGG CAC CCC CCG AGC GCG CTG GCC CCC GCG GCC AGG TTT AAC AAC TCC CAG TTC ATG GGT CCC CCG GTG GCC AGC CAG GGA GGC TCC CTG CCG GCC AGC ATG CAG CTG CAG AAG GCA ATG CTG CCG CCC AAT GTC ATA GAC ACT GAT TTC ATC GAC GAG GAA GTT CTT ATG TCC TTG GTG ATA GAA ATG GGT TTG GAC CGC ATC AAG GAG CTG CCC GAA CTC TGG CTG GGG CAA AAC GAG TTT GAT TTT ATG ACG GAC TTC GTG TGC AAA CAG CAG CCC AGC AGA GTG AGC TGT
+papio             ATG GCA GAC CAT ATG ATG GCC ATG AAC CAC GGG CGC TTC CCC GAC GGC ACC AAT GGG CTG CAC CAC CAC CCT GCC CAC CGC ATG GGC ATG GGG CAG TTC CCG AGC CCC CAT CAC CAC CAG CAG CAG CAG CCC CAG CAC GCT TTC AAC GCC CTG ATG GGC GAG CAC ATA CAC TAC GGC GCG GGC AAC ATG AAT GCC ACG AGC GGC ATC AGG CAT GCG ATG GGG CCG GGG ACT GTG AAC GGA GGG CAC CCC CCT AGC GCA CTG GCC CCC GCG GCC AGG TTT AAC AAC TCC CAG TTC ATG GGC CCC CCG GTG GCC AGT CAG GGA GGC TCC CTG CCG GCC AGC ATG CAG CTG CAG AAG GCA ATG CTG CCG CCC AAT GTC ATA GAC ACT GAT TTC ATC GAC GAG GAA GTT CTT ATG TCC TTG GTG ATA GAA ATG GGT TTG GAC CGC ATC AAA GAG CTG CCC GAA CTC TGG CTG GGG CAA AAC GAG TTT GAT TTT ATG ACG GAC TTC GTG TGC AAA CAG CAG CCT AGC AGA GTG AGC TGT
+pongo             ATG GCA GAC CAT ATG ATG GCC ATG AAC CAC GGG CGC TTC CCC GAC GGC ACC AAT GGG CTG CAC CAT CAC CCT GCC CAC CGC ATG GGC ATG GGG CAG TTC CCG AGC CCC CAT CAC CAC CAG CAG CAG CAG CCC CAG CAC GCC TTC AAC GCC CTA ATG GGC GAG CAC ATA CAC TAC GGC GCG GGC AAC ATG AAT GCC ACG AGC GGC ATC AGG CAT GCG ATG GGG CCG GGG ACT GTG AAC GGA GGG CAC CCC CCG AGC GCG CTG GCC CCC GCG GCC AGG TTT AAC AAT TCC CAG TTC ATG GGT CCC CCG GTG GCC AGC CAG GGA GGC TCC CTG CCG GCC AGC ATG CAG CTG CAG AAG GCA ATG CTG CCG CCC AAT GTC ATA GAC ACT GAT TTC ATC GAC GAG GAA GTT CTT ATG TCA TTG GTG ATA GAA ATG GGT TTG GAC CGC ATC AAG GAG CTG CCC GAA CTC TGG CTG GGG CAA AAC GAG TTT GAT TTT ATG ACG GAC TTC GTG TGC AAA CAG CAG CCC AGC AGA GTG AGC TGT
+node #5           ATG GCA GAC CAT ATG ATG GCC ATG AAC CAC GGG CGC TTC CCC GAC GGC ACC AAT GGG CTG CAC CAT CAC CCT GCC CAC CGC ATG GGC ATG GGG CAG TTC CCG AGC CCC CAT CAC CAC CAG CAG CAG CAG CCC CAG CAC GCC TTC AAC GCC CTA ATG GGC GAG CAC ATA CAC TAC GGC GCG GGC AAC ATG AAT GCC ACG AGC GGC ATC AGG CAT GCG ATG GGG CCG GGG ACT GTG AAC GGA GGG CAC CCC CCG AGC GCG CTG GCC CCC GCG GCC AGG TTT AAC AAC TCC CAG TTC ATG GGT CCC CCG GTG GCC AGC CAG GGA GGC TCC CTG CCG GCC AGC ATG CAG CTG CAG AAG GCA ATG CTG CCG CCC AAT GTC ATA GAC ACT GAT TTC ATC GAC GAG GAA GTT CTT ATG TCC TTG GTG ATA GAA ATG GGT TTG GAC CGC ATC AAG GAG CTG CCC GAA CTC TGG CTG GGG CAA AAC GAG TTT GAT TTT ATG ACG GAC TTC GTG TGC AAA CAG CAG CCC AGC AGA GTG AGC TGT
+node #6           ATG GCA GAC CAT ATG ATG GCC ATG AAC CAC GGG CGC TTC CCC GAC GGC ACC AAT GGG CTG CAC CAT CAC CCT GCC CAC CGC ATG GGC ATG GGG CAG TTC CCG AGC CCC CAT CAC CAC CAG CAG CAG CAG CCC CAG CAC GCC TTC AAC GCC CTA ATG GGC GAG CAC ATA CAC TAC GGC GCG GGC AAC ATG AAT GCC ACG AGC GGC ATC AGG CAT GCG ATG GGG CCG GGG ACT GTG AAC GGA GGG CAC CCC CCG AGC GCG CTG GCC CCC GCG GCC AGG TTT AAC AAC TCC CAG TTC ATG GGT CCC CCG GTG GCC AGC CAG GGA GGC TCC CTG CCG GCC AGC ATG CAG CTG CAG AAG GCA ATG CTG CCG CCC AAT GTC ATA GAC ACT GAT TTC ATC GAC GAG GAA GTT CTT ATG TCC TTG GTG ATA GAA ATG GGT TTG GAC CGC ATC AAG GAG CTG CCC GAA CTC TGG CTG GGG CAA AAC GAG TTT GAT TTT ATG ACG GAC TTC GTG TGC AAA CAG CAG CCC AGC AGA GTG AGC TGT
+node #7           ATG GCA GAC CAT ATG ATG GCC ATG AAC CAC GGG CGC TTC CCC GAC GGC ACC AAT GGG CTG CAC CAC CAC CCT GCC CAC CGC ATG GGC ATG GGG CAG TTC CCG AGC CCC CAT CAC CAC CAG CAG CAG CAG CCC CAG CAC GCT TTC AAC GCC CTG ATG GGC GAG CAC ATA CAC TAC GGC GCG GGC AAC ATG AAT GCC ACG AGC GGC ATC AGG CAT GCG ATG GGG CCG GGG ACT GTG AAC GGA GGG CAC CCC CCG AGC GCA CTG GCC CCC GCG GCC AGG TTT AAC AAC TCC CAG TTC ATG GGC CCC CCG GTG GCC AGT CAG GGA GGC TCC CTG CCG GCC AGC ATG CAG CTG CAG AAG GCA ATG CTG CCG CCC AAT GTC ATA GAC ACT GAT TTC ATC GAC GAG GAA GTT CTT ATG TCC TTG GTG ATA GAA ATG GGT TTG GAC CGC ATC AAA GAG CTG CCC GAA CTC TGG CTG GGG CAA AAC GAG TTT GAT TTT ATG ACG GAC TTC GTG TGC AAA CAG CAG CCT AGC AGA GTG AGC TGT
+
+

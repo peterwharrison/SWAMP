@@ -1,0 +1,5 @@
+6..4    pongo
+7..3	papio
+7..1	colobus
+5..6	pongo
+5..7	papio,colobus
