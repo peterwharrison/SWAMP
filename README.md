@@ -2,7 +2,7 @@
 
 Documentation for release version: 31/03/14
 
-Documentation last updated: 22/04/14
+Documentation last updated: 12/11/15
 
 ## About:
 **SWAMP** analyses multiple sequence alignments in a phylogenetic context, 
@@ -202,9 +202,9 @@ homo sequences as they are not listed.
 ```
 
 ## Contact:
-p.w.harrison@ucl.ac.uk
+peter [at] ebi.ac.uk
 
-Copyright (C) 2014 Peter Harrison
+Copyright (C) 2015 Peter Harrison
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by

@@ -17,7 +17,7 @@ approach removes sequence data that violates the assumptions of the
 phylogenetic models implemented in the software package PAML that could
 otherwise give a false signal of positive selection.
 
-Copyright (C) 2014 Peter Harrison
+Copyright (C) 2015 Peter Harrison
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
